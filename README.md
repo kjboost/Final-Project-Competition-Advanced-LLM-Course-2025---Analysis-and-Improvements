@@ -2,9 +2,11 @@
 LLM講座2025応用編最終課題コンペ
 
 ## Overview
-This repository documents my approach and improvements in the final project competition of the advanced Large Language Model Course 2025.
+This repository documents my approach and improvements in the final project competition of the advanced Large Language Model Course 2025, organized by the Matsuo-Iwasawa Laboratory at the University of Tokyo.
 
-I ranked 9th among approximately 180 participants and was selected as an outstanding performer.
+The competition consisted of multiple stages, with approximately 1000 participants in the main competition. From there, around 200 participants were selected for the advanced stage, with about 180 final submissions.
+
+Among them, I ranked 9th and was selected as an outstanding performer.
 
 ---
 
@@ -14,7 +16,9 @@ The initial model performance was limited, especially in specific domains, and s
 ---
 
 ## Hypothesis
-I hypothesized that data quality issues, such as duplication and distribution bias, were negatively affecting generalization performance.
+From error analysis, I observed inconsistencies and instability in model outputs across similar inputs.
+
+Based on this, I hypothesized that data quality issues, such as duplication and distribution bias, were negatively affecting generalization performance.
 
 ---
 
@@ -27,7 +31,9 @@ I hypothesized that data quality issues, such as duplication and distribution bi
 ---
 
 ## Results
-These improvements led to measurable performance gains, resulting in a 9th place ranking and selection as an outstanding participant.
+These improvements led to consistent performance gains across previously weak domains.
+
+As a result, I achieved 9th place in the competition and was selected as an outstanding participant.
 
 ---
 
@@ -39,11 +45,15 @@ Iterative cycles of hypothesis → validation → refinement were critical to ac
 ---
 
 ## Future Work
-I am interested in extending this work toward:
+I am interested in extending this work toward multi-agent LLM systems.
 
-- Multi-agent LLM interactions
-- Emergent behavior in simulated environments
-- Social simulation using LLM-based agents
+In particular, I would like to explore:
+
+- How information propagates across agents and leads to bias amplification  
+- How initial data distribution affects collective decision-making outcomes  
+- Emergent behaviors arising from interactions between LLM-based agents  
+
+These directions are closely related to social simulation using LLMs.
 
 ---
 
