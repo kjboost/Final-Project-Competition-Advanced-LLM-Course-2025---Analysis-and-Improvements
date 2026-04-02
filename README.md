@@ -1,4 +1,4 @@
-# Final-Competition-of-the-Large-Language-Model-Course-2025 (Advanced)---Analysis-and-Improvements
+# LLM-Course-2025-Advanced-Competition---Analysis-and-Improvements
 LLM講座2025応用編最終課題コンペ
 
 ## Overview
