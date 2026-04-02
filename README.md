@@ -4,9 +4,11 @@ LLM講座2025応用編最終課題コンペ
 ## Overview
 This repository documents my approach and improvements in the final competition of the Large Language Model Course 2025 (Advanced), organized by the Matsuo-Iwasawa Laboratory at the University of Tokyo.
 
-The competition consisted of multiple stages, with approximately 600 participants in the main competition during the selection process. From there, around 200 participants were selected for the advanced stage, with about 180 final submissions.
+The competition involved multiple stages. In the initial phase, approximately 600 participants competed, from which around 200 were selected for the advanced stage within the first week.
 
-Among them, I ranked 9th and was selected as an outstanding performer.
+After that, the main competition continued for three weeks, with a total of approximately 1250 participants achieving the completion criteria.
+
+Among the advanced-stage participants (approximately 180 final submissions), I ranked 9th and was selected as an outstanding performer.
 
 This experience reflects not only performance but also consistency in problem-solving across multiple evaluation stages.
 
@@ -25,10 +27,11 @@ Based on this, I hypothesized that data quality issues, such as duplication and 
 ---
 
 ## Approach
+To validate the hypothesis, I focused on improving data quality through the following steps:
 
-- Deduplication to reduce overfitting
-- Analysis and restructuring of data distribution
-- Targeted data augmentation for weak areas
+- Deduplication to reduce overfitting  
+- Analysis and restructuring of data distribution  
+- Targeted data augmentation for weak areas  
 
 ---
 
@@ -52,7 +55,7 @@ I am interested in further exploring how data design influences the behavior and
 In particular, I would like to investigate:
 
 - How differences in data distribution affect model outputs  
-- How different data conditions (e.g., distribution, bias, noise) influence model behavior  
+- How initial data conditions (e.g., bias, noise) influence robustness and behavior  
 - How these effects become more complex in systems involving multiple interacting LLM agents  
 
 Through this, I am interested in extending my understanding toward more complex environments, including LLM-based simulations.
