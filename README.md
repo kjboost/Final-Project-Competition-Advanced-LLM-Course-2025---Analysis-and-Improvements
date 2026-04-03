@@ -1,4 +1,4 @@
-# LLM-Course-2025-Advanced-Competition---Analysis-and-Improvements
+# LLM Course 2025 Advanced Competition - Analysis and Improvements
 LLM講座2025応用編最終課題コンペ
 
 ## Overview
@@ -64,12 +64,13 @@ Through this, I am interested in extending my understanding toward more complex 
 
 ## Resources
 
-- Dataset: https://huggingface.co/datasets/kochan13/kochan13/mixed-agent-dataset-merged-clean-dedup-dbweak_2x_2
+- Dataset: https://huggingface.co/datasets/kochan13/mixed-agent-dataset-merged-clean-dedup-dbweak_2x_2  
   → Processed dataset with normalization and distribution control
 
-- Model: https://huggingface.co/kochan13/lora_agentbench_qwen2.5_7b_26030106_16bit
+- Model: https://huggingface.co/kochan13/lora_agentbench_qwen2.5_7b_26030106_16bit  
+  → Fine-tuned model used for evaluation
 
-These were used as part of the data-centric improvement approach.
+These were used as part of the data-centric improvement approach and are reproducible.
 
 ---
 
