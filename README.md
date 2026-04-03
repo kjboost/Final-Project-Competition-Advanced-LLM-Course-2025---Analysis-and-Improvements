@@ -62,5 +62,16 @@ Through this, I am interested in extending my understanding toward more complex 
 
 ---
 
+## Resources
+
+- Dataset: https://huggingface.co/datasets/kochan13/mixed-agent-dataset-v6_v2_2  
+  → Processed dataset with normalization and distribution control
+
+- Model: （あれば）
+
+These were used as part of the data-centric improvement approach.
+
+---
+
 ## Author
 GitHub: https://github.com/kjboost
