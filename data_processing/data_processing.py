@@ -16,7 +16,7 @@ random.seed(SEED)
 ALF_DATASET = "u-10bei/sft_alfworld_trajectory_dataset_v5"
 DB_DATASET  = "u-10bei/dbbench_sft_dataset_react_v4"
 
-OUT_HF_DATASET_ID = "kochan13/mixed-agent-dataset-merged-clean-dedup-dbweak_2x_2"  # ★好きに変更
+OUT_HF_DATASET_ID = "kochan13/mixed-agent-dataset-merged-clean-dedup-dbweak_2x_2"  
 
 # ★ upweight 強度（2なら「弱点を2回追加」＝合計で弱点が3倍相当）
 DB_WEAK_ADD_TIMES = 2  # 0ならupweightなし / 1なら+1回 / 2なら+2回
@@ -280,7 +280,6 @@ after = len(merged)
 print(f"[INFO] dedup: {before} -> {after} (removed {before-after})")
 
 # =========================
-# ★ ここが“最小差分の本体”：
 #    dedup後に DB弱点を追加する（= upweightが確実に残る）
 # =========================
 def is_db_row(ex: Dict[str, Any]) -> bool:
