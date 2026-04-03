@@ -20,5 +20,8 @@ Key ideas:
 These steps were based on the hypothesis that data quality and distribution
 significantly affect model performance.
 
+Output dataset is available on Hugging Face:
+https://huggingface.co/datasets/kochan13/mixed-agent-dataset-merged-clean-dedup-dbweak_2x_2
+
 ## Code
 See `data_processing.py`
